@@ -1,0 +1,18 @@
+import random
+
+foods = [
+    'Chinese',
+    'Vietnamese',
+    'Korean',
+    'French',
+    'Mexican',
+    'Italian',
+    'Japanese',
+]
+
+#random.choice - random item in this array
+
+selected = random.choice(foods)
+
+print('What should we eat today?')
+print(selected)
