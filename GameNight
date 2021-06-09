@@ -1,0 +1,20 @@
+import random
+
+Games = [
+    'Sorry',
+    'Switch',
+    'Boggle',
+    'Sabaac',
+    'Scrabble',
+    'Upword',
+    'Scattegories',
+    'Monopoly',
+    'Uno',
+    'Painting',
+    'Chess',
+]
+
+selected = random.choice(Games)
+
+print('What should we play for Game night?')
+print(selected)
